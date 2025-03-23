@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pet-hotel/static/css/main.febb7412.css",
-    "main.js": "/pet-hotel/static/js/main.459ab278.js",
+    "main.js": "/pet-hotel/static/js/main.6b747ce6.js",
     "static/js/453.28da10d3.chunk.js": "/pet-hotel/static/js/453.28da10d3.chunk.js",
     "static/media/4.4.png": "/pet-hotel/static/media/4.4.39f8f93de9b8582cd6d0.png",
     "static/media/baguio-google-map.png": "/pet-hotel/static/media/baguio-google-map.b2606210651e3e8eb43b.png",
@@ -10,11 +10,11 @@
     "static/media/pet-background.svg": "/pet-hotel/static/media/pet-background.47101ed0bbdd105c38e8b3069c08c6ad.svg",
     "index.html": "/pet-hotel/index.html",
     "main.febb7412.css.map": "/pet-hotel/static/css/main.febb7412.css.map",
-    "main.459ab278.js.map": "/pet-hotel/static/js/main.459ab278.js.map",
+    "main.6b747ce6.js.map": "/pet-hotel/static/js/main.6b747ce6.js.map",
     "453.28da10d3.chunk.js.map": "/pet-hotel/static/js/453.28da10d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.febb7412.css",
-    "static/js/main.459ab278.js"
+    "static/js/main.6b747ce6.js"
   ]
 }
