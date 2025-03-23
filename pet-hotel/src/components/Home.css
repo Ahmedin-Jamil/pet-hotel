@@ -10,7 +10,7 @@
   z-index: 0;*/
 
   background-image: url('../assets/4.4.png');
-  background-size: 100% auto; /* 80% width, auto height */
+  background-size: 100% auto; /* 100% width, auto height */
   background-repeat: no-repeat; /* Single image */
   background-position: top 20px right 30px; /* 20px from top, 30px from right */
   background-attachment: fixed;
@@ -18,6 +18,15 @@
   background-color: #f9f9f9;
   position: relative;
   z-index: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .home-page {
+    background-size: cover;
+    background-position: top center;
+  }
 }
 
 /* Header Section */
@@ -101,6 +110,16 @@
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+  .date-picker-container {
+    margin-bottom: 40px;
+  }
+  
+  .date-picker-container h5 {
+    margin-bottom: 20px;
+  }
+}
+
 .react-datepicker-wrapper {
   width: 100%;
 }
@@ -168,6 +187,18 @@
   transition: all 0.3s ease;
 }
 
+@media (max-width: 768px) {
+  .help-section {
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .help-btn {
+    width: 45px;
+    height: 45px;
+  }
+}
+
 .help-btn:hover {
   transform: scale(1.1);
   background-color: #e69500;
@@ -187,12 +218,41 @@
   z-index: 1002;
 }
 
+@media (max-width: 768px) {
+  .frame-chat-popup {
+    bottom: 60px;
+    right: 0;
+    max-width: 90vw;
+  }
+  
+  .chatbot-popup {
+    bottom: 60px;
+    right: 20px;
+    max-width: 90vw;
+  }
+}
+
 /* About Us Section */
 .about-section {
   padding: 50px 0;
   background-color: rgba(255, 255, 255, 0.85);
   position: relative;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 30px 15px;
+  }
+  
+  .about-header h2,
+  .location-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .about-content p {
+    font-size: 0.95rem;
+  }
 }
 
 .about-header h2 {
@@ -254,6 +314,17 @@
   text-align: center;
   margin-bottom: 5px;
   transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    max-width: 100%;
+    margin: 0 auto 15px;
+  }
+  
+  .address-container p {
+    font-size: 0.9rem;
+  }
 }
 
 /* Chat Section */
@@ -495,5 +566,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 0;
+  margin: 40px 0;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .logo-section {
+    flex-direction: row;
+  }
+  
+  .logo-image img {
+    max-height: 300px;
+    margin: 0 auto;
+  }
+  
+  .tagline {
+    font-size: 2rem !important;
+    margin-left: 0 !important;
+    text-align: center;
+    display: block !important;
+  }
 }
