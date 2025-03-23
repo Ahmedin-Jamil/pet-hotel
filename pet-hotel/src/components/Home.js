@@ -39,9 +39,10 @@ const Home = () => {
                     src={baguioLogo} 
                     alt="Baguio Pet Boarding Logo" 
                     className="img-fluid"
+                    style={{ opacity: 0 }}
                   />
                 </div>
-                <p className="tagline" style={{ color: '#8B4513', marginLeft: '15000000px', fontSize: '4.2rem', display: 'inline-block' }}>Your Pet's Extended Family</p>
+                <p className="tagline" style={{ color: '#8B4513', marginLeft: '15000000px', fontSize: '4.2rem', display: 'inline-block' }}></p>
               </div>
             </Col>
           </Row>
